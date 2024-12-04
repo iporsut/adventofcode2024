@@ -1,0 +1,1 @@
+/Users/weerasak.cho.adm/src/adventofcode2024/day3/target/debug/day3: /Users/weerasak.cho.adm/src/adventofcode2024/day3/src/../../day3-input.txt /Users/weerasak.cho.adm/src/adventofcode2024/day3/src/main.rs
