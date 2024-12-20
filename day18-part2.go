@@ -79,10 +79,6 @@ func main() {
 		heap.Push(&pq, node{0, 0, 2, 0})
 
 		grid := makeGrid(70, 70, bytes, i)
-		if grid[0][0] == '#' || grid[len(grid)-1][len(grid[0])-1] == '#' {
-			fmt.Println(i, bytes[i])
-			break
-		}
 
 		for pq.Len() > 0 {
 			n := heap.Pop(&pq).(node)
