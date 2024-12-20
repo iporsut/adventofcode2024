@@ -93,11 +93,16 @@ func main() {
 	fmt.Println(len(words))
 
 	var count int
+	var possible int
 	for _, word := range words {
 		c := possibleWays(patterns, word)
+		if c > 0 {
+			possible++
+		}
 		fmt.Println(word, c)
 		count += c
 	}
+	fmt.Println(possible)
 	fmt.Println(count)
 }
 
